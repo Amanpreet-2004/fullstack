@@ -1,0 +1,15 @@
+sematic tags  are those tags which shows the type of content included in them
+//header
+//footer
+//navbar
+//section
+//artice
+//aside
+
+https://www.w3schools.com/html/img_sem_elements.gif
+
+
+
+//non sematic tags  are those tags which does not shows the type of content included in them
+
+https://static.semrush.com/blog/uploads/media/cc/85/cc85d452a743e27f68d426df35e4da7d/original.png
