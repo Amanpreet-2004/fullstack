@@ -1,0 +1,15 @@
+//GRID -> distribution of blocks into rows and cols
+// it is property of CSS whihc is used to divide blocks into colums to make it look beatiiful 
+accroding to their width
+//display:grid
+//cols: x, y, z
+
+
+
+//FLEX   is also similar to grid but it only accept two properties flex(default direction row)  flex-column(direction of elements column)
+
+//everthing that can be done from flex property can also be done by grid property 
+//but for aligning content to center or (center-div)  
+
+
+
