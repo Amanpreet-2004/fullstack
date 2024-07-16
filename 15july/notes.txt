@@ -1,0 +1,42 @@
+//POSITIONS IN TAILWIND OR CSS
+
+
+//STATIC
+
+static is by defaull position of elemnts written in our html
+
+
+//FIXED
+
+fixed position to tag fixed it according to given style with refrence to browser window
+generaly navbar
+
+//ABSOLUTE
+
+absoulute is the positioning of elememnt according to it parent
+
+
+//RELATIVE
+relative is used to to  give it children positioning according to it
+
+** relatice and absolute generaly used together
+
+
+//STICKY
+
+
+
+
+//EVENTS
+EVENTS ARE THE ACTION ON WEBPAGE WHICH CAUSE CHANGES IN THE WEBPAGE
+
+
+//EVENTS
+//ONCLICK
+//ONCHANGE
+//ON HOVER
+// ON MOUSEENTER
+//ON MOUSEREMOVE
+//ON HANDLESUBMIT
+
+
