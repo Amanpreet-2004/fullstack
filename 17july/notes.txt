@@ -1,0 +1,33 @@
+concatation
+is combnination of two or more values
+"arsh"+" aman" ===> arsh aman
+2+"chandan"  ===>2chandan
+2+2===> 4
+
+
+coirson (this change the data type of some value according to our code)
+2+"two"  ==> 2two
+//2 is converted to "2"
+
+
+
+== is used to compare values if values are same then return true otherwise false
+
+=== is used to compare values as well as data type if both data types and values are same then return true otherwise false
+
+
+== or === return only boolian values (true,false)
+
+
+
+//NON PRIMITIVE DATA TYPES  (object)
+data which contain values of more then one type
+
+
+array  =   [1,2,2,3,3,3,"chandna",false]
+
+object data type : in this the value is stored in (key:value) pairs
+
+
+
+** this keyword is used to refer the object where it  is written
