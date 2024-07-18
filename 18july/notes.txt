@@ -1,0 +1,24 @@
+//arguments : are the varibale/values which are passed in a function
+
+let add=funtion(a,b){
+    return a+b;
+}
+
+//in above a,b  are passed as values which are called arguments
+
+a , b can be anything / of any data type  primitive or non primitive
+
+a, b can be function also
+
+
+//HOF(HIGHER ORDER FUNCTION)
+ Def: HOF are those function whihc take another function as arhuments or return a function
+    there can be anynumber of primitive or non primitive , function can be be passed in hof
+
+
+//CALL BACK FUNCTION :
+        FUNCTION WHIHC IS PASSED AS A ARGUMENT IN ANOTHER (HOF)
+
+
+
+** a function can return any data type primitive or non primitive
