@@ -1,0 +1,38 @@
+
+
+we can declare varibales in three types 
+
+{
+      ...this is a block
+}
+
+lexical scope:  we can access the value of a varibale inside there inner child block and the scope of parent upto which it can be accsesd is known as lexical scope
+
+{
+    {
+        let a=8
+        {
+            we can access a in this
+        }
+    }
+    .
+    .
+    .
+    {
+
+
+
+    }
+}
+
+i)let : block scope, can not be redeclared  it can be reasign
+
+
+
+ii)const : block,     can not be redeclared  it can not be reasign
+
+
+iii)var 
+
+
+
