@@ -1,0 +1,11 @@
+
+var  (variable)
+* function and gloabal scope(in some cases)
+* it can be redeclared as well a reasign
+* it can be hoisted giving no errors
+
+
+***hoisting is the process in which function or varibale declaration moved to top
+   it happen in case or var and with let and const
+   but the varibles with let and const are in temporal deadzone(TDZ) so they refrence error
+   refrece error: "Cannot access varibale before initialization"
