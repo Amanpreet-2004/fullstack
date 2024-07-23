@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
+
 <body>
 
-    <h1 class="text-3xl bg-black text-white font-bold underline">
+    <h1 class="text-3xl bg-blue-800 text-yellow-700 font-bold underline">
         Hello world!
     </h1>
 
@@ -16,24 +18,24 @@
     <h1 class="h11">heading</h1>
     <h1 class="h11">heading</h1>
     <h1 class="h11">heading</h1>
-    <button onclick={remove()}>btn</button>
+    <button class="bg-black text-white p" onclick={remove()}>btn</button>
 
 
-    <div class="bg-black text-white px-2 h-20 flex items-center justify-center">
+    <div class="bg-gray-900 text-red-800 px-2 h-20 flex items-center justify-center">
         content
     </div>
 
 
     <!-- <div class="grid grid-cols-4"> -->
-        <div class="flex flex-col">
+    <div class="flex flex-col">
 
         <h2 class="bg-red-400 m-3 p-2 font-bold w-48 rounded-lg">first class of aman</h2>
         <h1 class="bg-red-400 m-3 p-2 font-bold w-48 rounded-lg">first class of aman</h1>
         <h1 class="bg-red-400 m-3 p-2 font-bold w-48 rounded-lg">first class of aman</h2>
-        <h3 class="bg-red-400 m-3 p-2 font-bold w-48 rounded-lg">first class of aman</h3>
-        <h4 class="bg-red-400 m-3 p-2 font-bold w-48 rounded-lg">first class of aman</h4>
-        <h5 class="bg-red-400 m-3 p-2 font-bold w-48 rounded-lg">first class of aman</h5>
-        <h6 class="bg-red-400 m-3 p-2 font-bold w-48 rounded-lg">first class of aman</h6>
+            <h3 class="bg-red-400 m-3 p-2 font-bold w-48 rounded-lg">first class of aman</h3>
+            <h4 class="bg-red-400 m-3 p-2 font-bold w-48 rounded-lg">first class of aman</h4>
+            <h5 class="bg-red-400 m-3 p-2 font-bold w-48 rounded-lg">first class of aman</h5>
+            <h6 class="bg-red-400 m-3 p-2 font-bold w-48 rounded-lg">first class of aman</h6>
     </div>
 
 
@@ -51,13 +53,15 @@
 
     <script>
 
-        let remove=function(){
-            document.getElementsByClassName('h11')[2].innerHTML=""
+        let remove = function () {
+            console.log(document.getElementsByClassName('h11'))
+            document.getElementsByClassName('h11')[2].innerHTML = "sakshi"
         }
 
 
 
     </script>
-    
+
 </body>
+
 </html>
