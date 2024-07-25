@@ -1,56 +1,27 @@
+tags  :  tags are like container which allow as to write some content in them
 
-//CSS (VANILA CSS)
+//tags  heading,paragraph,img,anchor,list
 
+heading tags (used to give heading to some content below it)
+  h1
+  h2
+  h3
+  h4
+  h5
+  h6
 
+paragraph (p)
+   it is used to contain some content whihc has large amount of word
 
-//GRID -> distribution of blocks into rows and cols
-// it is property of CSS whihc is used to divide blocks into colums to make it look beatiiful 
-accroding to their width
-//display:grid
-//cols: x, y, z
-
-
-
-//FLEX   is also similar to grid but it only accept two properties flex(default direction row)  flex-column(direction of elements column)
-
-//everthing that can be done from flex property can also be done by grid property 
-//but for aligning content to center or (center-div)  
-
+img tag is used to contain some image 
 
 
-//padding : it is the gap between the content and the border starting
+padding:
+    padding is like how  a content is from tag border(boudary)
 
-
-//margin : is the gap between one tag and the another tag
-
-//border: width the tag
-
-//content: is default space taken by the text(content)
-
-
-
-
-
-//TAILWIND CSS
-//LIBRARY OF CSS   in which the classes of vanila css are written in short form and can be used inside the classes
-
-
-npx tailwindcss -i ./input.css -o ./output.css --
-
-
-//text size : text-(sm,l,xl,2xl,3xl)
-//margin     : m-(1,2,3,4,5)
-                 unit rem,   1==1rem 
-                                1rem=4px
-                                4rem = 16px
-
-
-/ppadding:   p- (1,2,3,4,5)
-
-
-/border   : border
-//display flex :     d-flex    
-//flex ko direction :  flex-cols
+margin:
+    margin is like how a from tag is from another tag or parent tag
+   
 
 
 
