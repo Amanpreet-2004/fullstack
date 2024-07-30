@@ -1,0 +1,42 @@
+//settimeout  :   it delays the function calling or some other code run after some delay delay is given by the prograammer
+
+//callstack   :    is place where code under settimeout is stored   and when the time delay end it come out from the callstack and run according to it
+
+
+//synchronous  :   the code which run line by line  
+
+//asynchronous  : the program which does not run line by line   
+
+//promises    in JS  :    promise is the eventual completion of some program/code whihc is going to either fullfilled(resolve) or rejected
+                    promise have 3 states  : pending    ya (resolve or reject)
+
+ setTimeout(function () {
+            console.log(i);
+        }, 1 * 1000);
+
+
+ setTimeout(function () {
+            console.log(i);
+        }, 2 * 1000);
+
+
+
+ setTimeout(function () {
+            console.log(i);
+        }, 3 * 1000);
+        .
+        .
+
+
+
+        ...
+
+
+setTimeout(function () {
+            console.log(i);
+        }, 10 * 1000);
+
+
+i=11  
+
+

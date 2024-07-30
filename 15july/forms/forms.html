@@ -12,28 +12,29 @@
 
     <h1 class="text-3xl">going to learn about forms</h1>
 
-<form class="bg-blue-300 w-1/2 rounded-lg m-3">
+    <form class="bg-blue-300 w-1/2 rounded-lg m-9">
 
 
 
-   
-    <input id="name" class="bg-black text-white p-2 rounded-md m-4" value="" placeholder="enter-name"   />
-    <br/>
-    <input id="email" class="bg-black text-white p-2 rounded-md m-4" value=""  placeholder="enter-email" />
 
-    <br/>
-    <button class="hover:bg-gray-700 bg-black text-white p-2 rounded-md m-4 w-20" onsubmit="" onclick={handleclick()}>button</button>
+        <input id="name" class="bg-black text-white p-2 rounded-md m-4" value="" placeholder="enter-name" />
+        <br />
+        <input id="email" class="bg-black text-white p-2 rounded-md m-4" value="" placeholder="enter-email" />
 
-</form>
+        <br />
+        <button class="hover:bg-gray-700 bg-black text-white p-2 rounded-md m-4 w-20" onsubmit=""
+            onclick={handleclick()}>button</button>
 
-<script>
+    </form>
 
-    // let handleclick=function(){
-    //     let name=document.getElementById('name').value
-    //     let email=document.getElementById('email').value
-    //     alert(name+" "+email)
-    // }
-</script>
+    <script>
+
+        let handleclick=function(){
+            let name=document.getElementById('name').value
+            let email=document.getElementById('email').value
+            alert(name+" "+email)
+        }
+    </script>
 </body>
 
 </html>

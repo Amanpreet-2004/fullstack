@@ -1,0 +1,26 @@
+SPREAD OPEARATOR AND REST OPEARATOR
+
+
+
+//SPREAD:  MEANS SPREADING THINGS WHICH ARE TOGETHER
+   syntax :  ...obj,   ...arr,...str
+
+   iterable elements: those data in whihc we can access value one by one
+      like arr=[1,2,3,4,5]
+      like string "qwertyuiop"  
+
+  spread operator works on iterable objects means array,string...and so on
+
+//REST : 
+
+    rest operator syntax is same as spread operator  ...obj,...arr, or ony iterable data type
+
+    it is used to collect multiple elements into an sigle data type
+
+    let sum=0;
+    for(num of array){     //syntax to iterate without indexing
+        sum=sum+num;
+    }
+
+    return sum
+

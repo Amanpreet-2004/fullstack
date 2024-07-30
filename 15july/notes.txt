@@ -19,7 +19,7 @@ absoulute is the positioning of elememnt according to it parent
 //RELATIVE
 relative is used to to  give it children positioning according to it
 
-** relatice and absolute generaly used together
+** relative and absolute generaly used together
 
 
 //STICKY

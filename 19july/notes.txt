@@ -2,6 +2,15 @@
 
 we can declare varibales in three types 
 
+i)let : block scope, can not be redeclared  it can be reasign
+
+
+
+ii)const : block,     can not be redeclared  it can not be reasign
+
+
+iii)var : it can be global scope, function, can can be redeclared
+
 {
       ...this is a block
 }
@@ -25,14 +34,7 @@ lexical scope:  we can access the value of a varibale inside there inner child b
     }
 }
 
-i)let : block scope, can not be redeclared  it can be reasign
 
-
-
-ii)const : block,     can not be redeclared  it can not be reasign
-
-
-iii)var 
 
 
 

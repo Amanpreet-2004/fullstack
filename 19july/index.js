@@ -1,13 +1,14 @@
 
 
-// {
-//     let a=5;
-//     {
-//         console.log(a)
-//     }
+{
+    let a=5;
+    {
+        console.log(a)
+    }
     
-// }
-
+}
+// console.log(a) // a block scope  error aayega
+//global scope
 
 
 // {
@@ -26,10 +27,10 @@
 //     {
 
         
-//         // console.log(a)
+//         console.log(a)
 //     }
 // }
-// // let a=5;
+// let a=5;
 
 // let i;
 // i++   i will beacome i+1, i+=2,   i will beacome i+2;
@@ -61,8 +62,20 @@
 // }
 
 // const a=8;
+// a=9   //we cannot reasign const
+// console.log(a)
 
-// a=7;
+//VAR
+
+var name="sakshi"
+var name="aman"
+
+{
+    var name="arash"
+}
+console.log(name)
+
+// let a=7;
 
 // {
 //     {
@@ -101,27 +114,27 @@ print()
 //     console.log(currans);
 // }
 
-for(let star=5; star>=1; star-- ){
-    let currstar="";
-    for(let i=1;i<=star;i++){
-        currstar=currstar+"*"
+// for(let star=5; star>=1; star-- ){
+//     let currstar="";
+//     for(let i=1;i<=star;i++){
+//         currstar=currstar+"*"
 
-    }
+//     }
    
 
-    console.log(currstar)
-}
+//     console.log(currstar)
+// }
 
-for(let star=2; star<=5; star++ ){
-    let currstar="";
-    for(let i=1;i<=star;i++){
-        currstar=currstar+"*"
+// for(let star=2; star<=5; star++ ){
+//     let currstar="";
+//     for(let i=1;i<=star;i++){
+//         currstar=currstar+"*"
 
-    }
+//     }
    
 
-    console.log(currstar)
-}
+//     console.log(currstar)
+// }
 
 
 
