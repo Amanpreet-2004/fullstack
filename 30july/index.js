@@ -4,7 +4,7 @@
 
 // setTimeout(() => {
 //     console.log("arashaman")
-// }, 5000);    //delay is given in miliseconds
+// }, 10000);    //delay is given in miliseconds
 
 
 // setTimeout(() => {
@@ -41,6 +41,7 @@
 // }
 // x();
 
+
 // for (var i = 0; i < 5; i++) {
     
 //     setTimeout(() => console.log(i), 0);
@@ -76,25 +77,28 @@
 
 
 
-// let pr=new Promise((resolve,reject)=>{
+let pr=new Promise((resolve,reject)=>{
 
-//     setTimeout(()=>{
-//           resolve("fillfilled")
-//     },3)
+    setTimeout(()=>{
+          resolve("fillfilled yooooooo")
+    },6000)
 
-//     setTimeout(()=>{
-//         setTimeout(()=>{
-//             reject("rejecteeeeeeed")
-//         },1)
+    // resolve("fillfilled")
+
+    setTimeout(()=>{
+        console.log("printed after 5 sec")
+        setTimeout(()=>{
+            reject("rejecteeeeeeed")
+        },10000)
        
-//   },1)
+  },5000)
 
 
-// })
+})
 
-// pr.
-// then(res=>console.log(res)).
-// catch(error=>console.log(error))
+pr.
+then(res=>console.log(res)).
+catch(error=>console.log(error))
 
 
 

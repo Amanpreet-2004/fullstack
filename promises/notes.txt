@@ -1,0 +1,49 @@
+
+//we will learn promises chaining ......
+//promise chaining: promises which depend on other promises for completion of calling using .then
+
+linke for exmples
+
+
+p1.then(res1=>{
+    console.log(res1);
+
+    return p2
+}).then(res2=>{
+    console.log(res2)
+    return p3
+}).then(res3=>{
+    console.log(res3)
+    return p4
+}).then(res=>{
+    console.log(res);
+}).catch(err=>console.log(err))
+
+
+//it is called promise chaining because there cbains of .then
+                                                        .then
+                                                        .then
+                                                        .then
+                                                        .then
+                                                        .catch
+
+
+
+
+
+
+
+aysnc : stands for asynchronous
+await : it waits for promise to complete under async function
+
+
+await keyword can only be used under async function
+
+
+aysnc/await                             VS                 .then()
+
+i)easy syntex                                           ii)little complex syntax
+
+ii)logical and more understanding                        ii)less logical for a non programmer
+
+iii)there is no chaining                                 iii)there is chaining
