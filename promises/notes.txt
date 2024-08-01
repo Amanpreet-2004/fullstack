@@ -42,8 +42,10 @@ await keyword can only be used under async function
 
 aysnc/await                             VS                 .then()
 
-i)easy syntex                                           ii)little complex syntax
+i)easy syntex                                            i)little complex syntax
 
 ii)logical and more understanding                        ii)less logical for a non programmer
 
 iii)there is no chaining                                 iii)there is chaining
+
+iv) await keyword can only be used under async function    

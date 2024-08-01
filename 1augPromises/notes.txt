@@ -1,0 +1,44 @@
+//try and catch block
+
+try{
+    here code whihc r going to resolve are written in this block
+}
+
+catch(err){
+    if there is some error(promises rejected) the code for that is written in this block
+}
+
+
+
+JSON  (JAVASCRIPT OBJECT NOTATION)
+
+
+BELOW IS JSON OBJECT
+
+{
+"userId": 1,
+"id": 1,
+"title": "delectt us auautem",
+"completed": false
+}
+
+
+
+let obj={
+    "userId": 1,
+    "id": 1,
+    "title": "delectt us auautem",
+    "completed": false
+    }
+
+// console.log(obj)
+
+// console.log(obj.id, obj.completed)
+console.log("SAKSHI")
+
+let newobj=JSON.stringify(obj)     //stringify method convert the json object into a string(json string)
+console.log(newobj)
+
+let secondobj=JSON.parse(newobj)   //parse  it convert json string into valid JS object
+console.log(secondobj)  
+
