@@ -1,0 +1,87 @@
+
+//Arrow fucntion : it is the shorter syntax of writting fucntion
+
+//normal fucntion
+let getname=fucntion(name){
+    console.log(name)
+}
+
+let getsum=function(a1,a2,a3,a4){
+    return a1+a2+a3+a4
+}
+
+//arrow fucntion
+let getname=(name)=>{
+    console.log(name)
+}
+
+
+let getsum=(a1,a2,a3,a4)=>{
+    return a1+a2+a3+a4
+}
+
+
+
+
+
+
+
+
+
+onclick={()=>{}}
+
+
+***imp***
+
+// let func=function(){
+
+//     this.age=24
+//     this.name="chandan"
+
+//     console.log(this.age,this.name)
+
+//     this.getnameage=function(){
+         
+//         this.name="arash"
+//         this.age="21"
+
+//         console.log(this.name, this.age)
+
+//     }
+
+//     console.log(this.getnameage())
+// }
+
+
+let func=()=>{
+
+    this.age=24
+    this.name="chandan"
+
+    // console.log(this.age,this.name)
+
+    this.getnameage=()=>{
+         
+        this.name="arash"
+        this.age="21"
+
+        console.log(this.name, this.age)
+
+    }
+     this.getnameage()
+}
+
+
+***imp***
+in normal function if there subfunction if this.value is not or not defined in subfunction then it will return or console undefined
+
+in Arrow function if there subfunction if this.value is not or not defined in subfunction then it will search the this.value in above it outer scope function/ function statemnts
+
+.......................................................................................
+
+***MAP*** METHOD IS JS CHNAGE THE value OF ARRAY ITEMS ON WHICH IT IS APPLIED AND RETURN A NEW ARRAY according to what we want to CHNAGE
+
+***FILTER***  SEPRATING THINGS FROM BUCHES OF THISNG ACCRODING TO SOME CONDITON if CONDITON is true then item is push into the new array
+
+
+REDUCE : is used to accumlate(coverge) the array value to one value  
