@@ -273,118 +273,118 @@ let num=[13,23,23,23,23,23,2312,43,54,54,54,63,34];
 
 // console.log(names)
 
-// const arrayOfNestedObjects = [
-//     {
-//         id: 1,
-//         name: "Object 1",
-//         details: {
-//             value: 10,
-//             info: {
-//                 description: "Description 1",
-//                 tags: ["tag1", "tag2"]
-//             }
-//         }
-//     },
-//     {
-//         id: 2,
-//         name: "Object 2",
-//         details: {
-//             value: 20,
-//             info: {
-//                 description: "Description 2",
-//                 tags: ["tag3", "tag4"]
-//             }
-//         }
-//     },
-//     {
-//         id: 3,
-//         name: "Object 3",
-//         details: {
-//             value: 30,
-//             info: {
-//                 description: "Description 3",
-//                 tags: ["tag5", "tag6"]
-//             }
-//         }
-//     },
-//     {
-//         id: 4,
-//         name: "Object 4",
-//         details: {
-//             value: 40,
-//             info: {
-//                 description: "Description 4",
-//                 tags: ["tag7", "tag8"]
-//             }
-//         }
-//     },
-//     {
-//         id: 5,
-//         name: "Object 5",
-//         details: {
-//             value: 50,
-//             info: {
-//                 description: "Description 5",
-//                 tags: ["tag9", "tag10"]
-//             }
-//         }
-//     },
-//     {
-//         id: 6,
-//         name: "Object 6",
-//         details: {
-//             value: 60,
-//             info: {
-//                 description: "Description 6",
-//                 tags: ["tag11", "tag12"]
-//             }
-//         }
-//     },
-//     {
-//         id: 7,
-//         name: "Object 7",
-//         details: {
-//             value: 70,
-//             info: {
-//                 description: "Description 7",
-//                 tags: ["tag13", "tag14"]
-//             }
-//         }
-//     },
-//     {
-//         id: 8,
-//         name: "Object 8",
-//         details: {
-//             value: 80,
-//             info: {
-//                 description: "Description 8",
-//                 tags: ["tag15", "tag16"]
-//             }
-//         }
-//     },
-//     {
-//         id: 9,
-//         name: "Object 9",
-//         details: {
-//             value: 90,
-//             info: {
-//                 description: "Description 9",
-//                 tags: ["tag17", "tag18"]
-//             }
-//         }
-//     },
-//     {
-//         id: 10,
-//         name: "Object 10",
-//         details: {
-//             value: 100,
-//             info: {
-//                 description: "Description 10",
-//                 tags: ["tag19", "tag20"]
-//             }
-//         }
-//     }
-// ];
+const arrayOfNestedObjects = [
+    {
+        id: 1,
+        name: "Object 1",
+        details: {
+            value: 10,
+            info: {
+                description: "Description 1",
+                tags: ["tag1", "tag2"]
+            }
+        }
+    },
+    {
+        id: 2,
+        name: "Object 2",
+        details: {
+            value: 20,
+            info: {
+                description: "Description 2",
+                tags: ["tag3", "tag4"]
+            }
+        }
+    },
+    {
+        id: 3,
+        name: "Object 3",
+        details: {
+            value: 30,
+            info: {
+                description: "Description 3",
+                tags: ["tag5", "tag6"]
+            }
+        }
+    },
+    {
+        id: 4,
+        name: "Object 4",
+        details: {
+            value: 40,
+            info: {
+                description: "Description 4",
+                tags: ["tag7", "tag8"]
+            }
+        }
+    },
+    {
+        id: 5,
+        name: "Object 5",
+        details: {
+            value: 50,
+            info: {
+                description: "Description 5",
+                tags: ["tag9", "tag10"]
+            }
+        }
+    },
+    {
+        id: 6,
+        name: "Object 6",
+        details: {
+            value: 60,
+            info: {
+                description: "Description 6",
+                tags: ["tag11", "tag12"]
+            }
+        }
+    },
+    {
+        id: 7,
+        name: "Object 7",
+        details: {
+            value: 70,
+            info: {
+                description: "Description 7",
+                tags: ["tag13", "tag14"]
+            }
+        }
+    },
+    {
+        id: 8,
+        name: "Object 8",
+        details: {
+            value: 80,
+            info: {
+                description: "Description 8",
+                tags: ["tag15", "tag16"]
+            }
+        }
+    },
+    {
+        id: 9,
+        name: "Object 9",
+        details: {
+            value: 90,
+            info: {
+                description: "Description 9",
+                tags: ["tag17", "tag18"]
+            }
+        }
+    },
+    {
+        id: 10,
+        name: "Object 10",
+        details: {
+            value: 100,
+            info: {
+                description: "Description 10",
+                tags: ["tag19", "tag20"]
+            }
+        }
+    }
+];
 
 //   in above object print the description of that obj whose value is divisble by 20
 
@@ -400,26 +400,33 @@ let num=[13,23,23,23,23,23,2312,43,54,54,54,63,34];
 // console.log(sum)
 
 
-const arrayOfHindiNames = [
-    "Aaryan",
-    "Aditya",
-    "Vedika",
-    "Sakshi",
-    "Arjun",
-    "Nandini",
-    "Krishna",
-    "Anushka",
-    "Rahul",
-    "Neha"
-];
+// const arrayOfHindiNames = [
+//     "Aaryan",
+//     "Aditya",
+//     "Vedika",
+//     "Sakshi",
+//     "Arjun",
+//     "Nandini",
+//     "Krishna",
+//     "Anushka",
+//     "Rahul",
+//     "Neha"
+// ];
 
-console.log(arrayOfHindiNames[0])
+// console.log(arrayOfHindiNames[0])
 
-let addnames=arrayOfHindiNames.reduce((res,name)=>{
-    return res+name;
-},"")
+// let addnames=arrayOfHindiNames.reduce((res,name)=>{
+//     return res+name;
+// },"")
 
-console.log(addnames)
+// console.log(addnames)
+
+let valuedivisibleby20=arrayOfNestedObjects.filter(obj => obj.details.value%20===0)
+
+let description=valuedivisibleby20.map(obj =>console.log(obj.details.info.description))
+    
+
+// console.log(description)
 
 
 

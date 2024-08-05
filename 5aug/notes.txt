@@ -1,0 +1,52 @@
+{
+    let x=7;
+    {
+        {
+            console.log(x)
+        }
+    }
+}
+
+
+
+
+{
+    //OUTER SCOPE
+
+    {  //OUTER SCOPE
+        {
+            let x  //BLOCK SCOPE
+            {
+                {
+                    //INNER SCOPE
+
+                }
+            }
+        }
+    }
+
+    let y
+
+    {
+        {
+
+        }
+    }
+}
+
+
+LEXICAL SCOPE  : COMBINATION OF BLOCK +INNER +OUTER SCOPE
+
+***CLOSURE***
+
+closure are property of functions to remember the varible defined in its outer SCOPE
+
+even when the inner functions is called outside the main body of outerfunction
+
+if there is duplicacy in varible then it will access the value of the closeset scope varible
+
+
+
+
+localstorage :  is used to store the value in key : value   (both key and value should be in string tyep)
+
