@@ -4,41 +4,49 @@
 // break: keyword it is to break out or come out from loop at certain condition
 
 //for ex
-// for(let i=0;i<100000;i++){
+// for(let i=0;i<1000;i++){
 //     console.log(i)
-//     if(i==1000) break;
+//     if(i==500){
+//         console.log("comming out from loop")
+//         break;
+//     };
 // }
-
 
 //continue : keyword used in loops to skip program in for loops at certain conditions
 
-// for(let i=0;i<100000;i++){
+// for(let i=0;i<10;i++){
 //     // console.log(i)
 //     if(i%2==0) continue;
 //     console.log(i)
-
-//     if(i>=1000) break;
+//     console.log("hi r u nur ruurururuururururuur")
+//     // 
+//     // if(i>=1000) break;
 // }
 
 
 
-// for(let i=0;i<100000;i++){
+// for(let i=0;i<100;i++){
 //     // console.log(i)
 //     if(i%2==1){
 //         console.log(i)
 //     }
-    
-
-//     if(i>=1000) break;
+//     if(i>=50) break;
 // }
-
 
 //WHILE LOOP
 
-// let i=0;
-// let j=1;
+let i=0;
+let j=1;
 
-// while(i<1000 && j<=1000){
+while(i<1000 && j<=1000){
+    console.log(j)
+    i=i+2
+    j=j*10
+}
+
+
+
+// while(i<1000 || j<=1000){
 //     console.log(i)
 //     i=i+2
 //     j=j*10
@@ -88,15 +96,15 @@
 
 
 
-let str=prompt("enter the string: ")
-let n=str.length
-let ans="";
-for(let i=n-1;i>=0;i--){
-    ans=ans+str[i];
-}
-if(ans===str){
-    console.log("palideome yes")
-}
-else{
-    console.log("no")
-}
+// let str=prompt("enter the string: ")
+// let n=str.length
+// let ans="";
+// for(let i=n-1;i>=0;i--){
+//     ans=ans+str[i];
+// }
+// if(ans===str){
+//     console.log("palideome yes")
+// }
+// else{
+//     console.log("no")
+// }

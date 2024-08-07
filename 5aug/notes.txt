@@ -1,14 +1,12 @@
 {
     let x=7;
+    x=9
     {
         {
             console.log(x)
         }
     }
 }
-
-
-
 
 {
     //OUTER SCOPE

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="flex flex-col justify-between items-center  min-h-screen bg-gray-100">
+
+
+        <div class="w-full max-w-md p-8 space-y-6 bg-white shadow-md rounded-lg">
+            <h2 class="text-2xl font-bold text-center">Login</h2>
+            <form class="space-y-4">
+                <div>
+                  
+                    <input type="email" id="email" name="email" placeholder="enter-email"
+                        class="block w-full px-3 py-2 mt-1 border rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                        >
+                </div>
+                <div>
+                  
+                    <input type="password" id="password" name="password" placeholder="password"
+                        class="block w-full px-3 py-2 mt-1 border rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                        >
+                </div>
+              
+                <div>
+                    <button onclick="signin()" type="submit"
+                        class="w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Login</button>
+                </div>
+            </form>
+            <div class="text-sm text-center">
+                <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Don't have an account? Sign up</a>
+            </div>
+        </div>
+
+        <div class="w-full max-w-md p-8 mt-8 space-y-6 bg-white shadow-md rounded-lg">
+            <h2 class="text-2xl font-bold text-center">Sign Up</h2>
+            <form id="form" class="form space-y-4">
+                <div>
+                    <!-- <label for="username" class="block text-sm font-medium text-gray-700">Username</label> -->
+                    <input type="text" id="username" placeholder="enter-username"
+                        class="block w-full px-3 py-2 mt-1 border rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                       >
+                </div>
+                <div>
+                    <input type="email" placeholder="enter-email" id="email-signup"
+                        class="block w-full px-3 py-2 mt-1 border rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                       >
+                </div>
+                <div>
+                    <!-- <label for="password-signup" class="block text-sm font-medium text-gray-700">Password</label -->
+                    <input type="password" placeholder="password" id="password-signup"
+                        class="block w-full px-3 py-2 mt-1 border rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                      >
+                </div>
+                <div>
+                    <button onclick="signup()" onsubmit="check()" type="submit"
+                        class="w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Sign
+                        Up</button>
+                </div>
+            </form>
+            <div class="text-sm text-center">
+                <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Already have an account? Login</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <script>
+
+        let check = function () {
+            console.log("checked")
+        }
+        let signup = function () {
+            let username = document.getElementById('username').value
+            let password = document.getElementById('password-signup').value
+            let email = document.getElementById('email-signup').value
+
+            localStorage.setItem(username, password)
+            localStorage.setItem(email, password)
+            document.getElementById('username').value=""
+            document.getElementById('password-signup').value=""
+            document.getElementById('email-signup').value=""
+
+
+        }
+        let signin=function(){
+
+            let email = document.getElementById('email').value
+            let password = document.getElementById('password').value
+
+            if(localStorage.getItem(email)==null){
+                alert("user or email dosnt exist")
+            }else{
+
+                let storedpass=localStorage.getItem(email)
+
+                if(storedpass==password){
+                    alert("sign in successful")
+                }else{
+                    alert("sorryy wrong password")
+                }
+            }
+
+
+
+
+
+        }
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

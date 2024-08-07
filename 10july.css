@@ -1,0 +1,35 @@
+.container-fluid{
+    background-color: black;
+    width: 100%;
+    padding: 4px;
+    border-radius: 10px;
+}
+#nav{
+    color: red;
+}
+
+#search{
+    display: flex;
+    gap: 10px;
+
+}
+#btn:hover{
+    
+    background-color: #532c70;
+    
+}
+#mainform{
+    width: 400px;
+    background-color: rgb(187, 184, 184);
+    padding: 50px;
+}
+#email{
+    color: red;
+    font-size: 30px;
+}
+#flimg{
+    height: 250px;
+}
+#list_hai{
+    list-style: circle;
+}
