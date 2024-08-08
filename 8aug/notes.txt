@@ -1,0 +1,17 @@
+//ADRESS  :  IS THE LOCATION OF ANY VARIBLES WHICH IS DEFINED IN OUR PROGRAM
+
+var a=2
+
+
+(adress  -> store the value of varibale)
+
+
+
+**PASS BY VALUE**
+
+int this if the value of a copy of varible of is created and passed to the function
+the primitive data types a passed by value
+
+**PASS BY REFRENCE**
+int this if the actual value of varibles with its adress is passed to the function and whatever the changes done on function with varibale change the actual varible
+the non primitive data types a passed by REFRENCE

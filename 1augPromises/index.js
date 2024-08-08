@@ -185,13 +185,14 @@ let url = "https://jsonplaceholder.typicode.com/users"
 
 // }
 
-// url = "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=37fa9304349edd22e0256fe99d865d23"
+url = "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=37fa9304349edd22e0256fe99d865d23"
 let getdata = async function () {
     try {
         let res = await fetch(url)
         let data = await res.json()
 
         let n = data.length
+        console.log(n)
         for (let i = 0; i < n; i++) {
             console.log(data[i].name + " street is " + data[i].address.street)
 
